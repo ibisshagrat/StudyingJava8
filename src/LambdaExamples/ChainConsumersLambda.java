@@ -20,6 +20,6 @@ public class ChainConsumersLambda {
 
 
         strings.forEach(printConsumer.andThen(insertConsumer));
-        System.out.println("El tama√±o de la lista, list's size is: " + result.size());
+        System.out.println("El tama√nno de la lista, list's size is: " + result.size());
     }
 }
